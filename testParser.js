@@ -2,4 +2,4 @@
 const { parseJSON } = require('./jsonParser');
 
 
-console.log(parseJSON('{"name": "John"}'))
+console.log(parseJSON('{"person": {"name": "John", "age": 30}}'));
